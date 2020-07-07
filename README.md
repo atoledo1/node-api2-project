@@ -97,7 +97,7 @@ When the client makes a `POST` request to `/api/posts`:
 
   - save the new _post_ the the database.
   - return HTTP status code `201` (Created).
-  - return the newly created _post_.
+  - return the newly created _post_..
 
 - If there's an error while saving the _post_:
   - cancel the request.
