@@ -18,6 +18,6 @@ server.get("/", (req, res) => {
     `);
 });
 
-server.listen(8000, () => {
-  console.log(`server on http://localhost:8000`);
+server.listen(port, () => {
+  console.log(`\n*** Server Running on http://localhost:${port} ***\n`);
 });
